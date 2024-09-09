@@ -1,0 +1,17 @@
+.set{
+    background-color: rgb(245, 180, 180);
+    padding: 212px;
+}
+.a,.b,.c,.d{
+    background-color:  #d5275b;
+    justify-content: space-around;
+    font-size: large;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.h{
+    background-color: #d5275b;
+    justify-content: center;
+    font-size: xx-large;
+    margin-left: 480px;
+}

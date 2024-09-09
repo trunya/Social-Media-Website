@@ -1,0 +1,121 @@
+/*.post{
+    width: 100%;
+    border-radius: 10px;
+    /*box-sizing: border-box;
+    box-sizing: content-box;
+    box-shadow: 0px 0 px 16px -8px rgba(0, 0, 0, 0.68);
+    margin-left: 30px ;
+}
+.postBotRight{
+    padding-right: 20px;
+}
+.post{
+    margin-left: 300px;
+    width: 320px;
+    padding: 10px;
+    border: 5px solid rgb(213, 172, 172);
+    box-sizing: content-box;
+    box-shadow: 0px 0 px 16px -8px rgba(0, 0, 0, 0.68);
+}*/
+.post{
+    margin-left: 300px;
+    margin-top: 20px;
+    width: 500px;
+    height: 450px;
+    border-radius: 2px;
+    -webkit-box-shadow: 13px 17px 19px 3px rgba(0,0,0,0.27);
+    -moz-box-shadow: 13px 17px 19px 3px rgba(0,0,0,0.27);
+    box-shadow: 13px 17px 19px 3px rgba(0,0,0,0.27);
+    background-color: rgb(255, 255, 255);
+}
+.pfp{
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.postWrapper{
+    padding: 10px;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+}
+.postTopRight{    
+    margin-left: 280px;
+    cursor: pointer;
+}
+.postUsername{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+.postTime{    
+    margin-left: 5px;
+    margin-top: 25px;
+    width: 60px;
+    font-size: 10px;
+    font-style: italic;
+    align-items: center;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+.like{
+    width: 20px;
+    height: 20px;
+}
+.tweet{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.share{
+    width: 20px;
+    height: 20px;
+}
+.postMid{
+    margin: 20px 0;
+}
+.postImg{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+}
+.postBot{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.likes{
+    font-size: x-small;
+    margin-right: 5px;
+}
+.l{   
+    cursor: pointer;
+}
+.f{   
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+.c{   
+    cursor: pointer;
+}
+.t{   
+    cursor: pointer;
+}
+.comments{
+    font-size: x-small;
+    margin-left: 5px;
+}
+.postBotLeft{
+    display: flex;
+    align-items: center;
+}
+.postText{
+    margin-top: 20px;
+}

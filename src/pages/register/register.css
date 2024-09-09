@@ -1,0 +1,77 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(24, 111, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginWrapper{
+    width: 70%;
+    height: 80%;
+    background-color: #d5275b;
+    display: flex;
+}
+
+.loginLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+.loginDesc{
+    font-size: 24px;
+}
+.loginBox{
+    margin-top: 50px;
+    margin-right: 400px;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    justify-content: center;
+}
+.loginInp{
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.loginInp:focus{
+    outline: none;
+}
+.loginb{
+    height: 35px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginReg{
+    align-self: center;
+    height: 35px;
+    border: none;
+    background-color: rgb(71, 188, 42);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Page{
+    display: flex;
+    justify-content: left;
+    font-size: x-large;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgb(202, 161, 161);    
+}
+.Page1{    
+    margin-left: 10px;
+    display: flex;
+    justify-content: right;
+    margin-top: 8px;
+    margin-right: 100px;
+}

@@ -1,0 +1,104 @@
+/*.chatBox{
+    width: 500px;
+    height: 1000px;
+    border: 5px solid green;
+    padding: 50px;
+    margin-left: 450px;
+}
+.chatboxes{
+    width:70px;
+    height:20px;
+    border: 2px solid pink;
+    padding-right: 450px;
+    padding-bottom: 40px;
+}
+.Users{
+    display: inline;
+    font-size: large;
+    font-weight: bold;
+}
+.chats{
+    float: left;
+    margin-top: 5px;
+    font-size: small;
+    padding-left: 50px;
+    font-weight: light;
+}
+.pfp{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+.time{
+    background-color: rgb(158, 25, 25);
+    padding-right: 200px;
+    font-weight: lighter;
+    font-size: x-small;
+}*/
+.yo{    
+    margin-left: 500px;
+    width: 500px;
+    border: 5px solid green;
+    height: 650px;
+}
+.bubbleWrapper {
+    background-color: solid pink;
+      padding: 10px 10px;
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      align-self: flex-end;
+  }
+  .inlineContainer {
+    display: inline-flex;
+  }
+  .inlineContainer.own {
+    flex-direction: row-reverse;
+  }
+  .inlineIcon {
+    display: inline-flex;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+  }
+  .ownBubble {
+      min-width: 60px;
+      max-width: 700px;
+      padding: 14px 18px;
+    margin: 6px 8px;
+      background-color:  rgb(205, 159, 183);
+      border-radius: 16px 16px 0 16px;
+      border: 1px rgb(180, 42, 113);
+   
+  }
+.otherBubble {
+    color: white;
+    min-width: 60px;
+    max-width: 700px;
+      padding: 14px 18px;
+      margin: 6px 8px;
+      background-color:  rgb(180, 42, 113);
+      border-radius: 16px 16px 16px 0;
+      border: 1px solid #54788e;
+    
+  }
+  .own {
+      align-self: flex-end;
+  }
+  .other {
+      align-self: flex-start;
+  }
+span.own,span.other{
+  font-size: 14px;
+  color: grey;
+}
+.chatbox{
+    margin-top: 85px;
+    margin-right: 8px;
+    padding-left: 330px;    
+    justify-content: left;
+}
+.cont{
+  background-color: rgb(245, 180, 180);
+}

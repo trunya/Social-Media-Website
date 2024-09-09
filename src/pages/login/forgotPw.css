@@ -1,0 +1,67 @@
+.forgot{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(24, 111, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forgotWrapper{
+    width: 70%;
+    height: 80%;
+    background-color: #d5275b;
+    display: flex;
+}
+
+.forgotLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    margin-bottom: 8px;
+}
+.forgotDesc{
+    font-size: 24px;
+}
+.forgotBox{
+    margin-top: 50px;
+    margin-right: 400px;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    justify-content: center;
+}
+.forgotInp{
+    height: 50px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.forgotInp:focus{
+    outline: none;
+}
+.forgotb{
+    height: 35px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.forgotForgot{
+    text-align: center;
+    color: white;
+}
+.forgotReg{
+    align-self: center;
+    height: 35px;
+    border: none;
+    background-color: rgb(71, 188, 42);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
